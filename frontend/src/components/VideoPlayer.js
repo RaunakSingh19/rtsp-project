@@ -45,8 +45,8 @@ const VideoPlayer = () => {
       <div style={{ marginTop: "20px", display: "flex", justifyContent: "center" }}>
         {playUrl && (
           <ReactPlayer
-            url={playUrl}
-            playing
+            url={"https://www.youtube.com/watch?v=dQw4w9WgXcQ"}
+            playing ={true}
             controls
             width="750px"
             height="405px"
